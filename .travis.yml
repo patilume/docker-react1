@@ -9,7 +9,7 @@ script:
   - docker run patilume/docker-react1 npm run test -- --coverage
 
 deploy:
-  provoider: elastickbenstalk
+  provoider: elasticbeanstalk
   region: "us-east-1"
   app: "docker"
   env: "Docker-env"
